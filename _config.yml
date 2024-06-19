@@ -21,12 +21,12 @@ repository               : "haydenratliff/haydenratliff.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Hayden Ratliff"
   pronouns         : # example: "she/her"
   bio              : "Master of Business Analytics Candidate at MIT"
   location         : # location
-  employer         : "Massachusetts Institute of Technology"
+  employer         : "MIT"
   uri              : # URL
   email            : "hratliff@mit.edu" 
 
