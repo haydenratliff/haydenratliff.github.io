@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+This site is under construction! Check back soon for updates.
+
 Section
 ======
 1. List item 1
