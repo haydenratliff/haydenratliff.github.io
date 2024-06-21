@@ -26,9 +26,12 @@ author:
   pronouns         : # example: "she/her"
   bio              : "Master of Business Analytics Candidate at MIT"
   location         : # location
-  employer         : "MIT"
+  employer         : # employer
   uri              : # URL
   email            : "hratliff@mit.edu" 
+  
+  # moved above github
+  linkedin         : "haydenratliff"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -57,7 +60,6 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "haydenratliff"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
