@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Resume"
+title: ""
 permalink: /resume/
 author_profile: true
 redirect_from:
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 {% include base_path %}
-
-Hello world!
 
 <iframe src="{{ site.url }}/files/Hayden Ratliff Resume.pdf#navpanes=0&scrollbar=0" width="100%" height="1200px"></iframe>
 
