@@ -1,17 +1,20 @@
 ---
 permalink: /
-title: "About"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Currently, I'm pursuing a [Master's of Business Analytics](https://mitsloan.mit.edu/master-of-business-analytics/explore-program) at MIT, a Data Science degree focused on practical applications of ML, AI, and Optimization. At MIT, I conducted research advised by Prof. [Dimitris Bertsimas](https://www.dbertsim.mit.edu/), and used ML to solve problems for Lineage Logistics and Pfizer.
+Currently, I'm pursuing a [Master's of Business Analytics](https://mitsloan.mit.edu/master-of-business-analytics/explore-program) at MIT, a Data Science degree focused on practical applications of ML, AI, and Optimization. At MIT, I conducted research advised by Prof. [Dimitris Bertsimas](https://www.dbertsim.mit.edu/), and worked with Lineage Logistics and Pfizer.
 
 On the personal side, I've played collegiate Ultimate Frisbee for the past five years, and am an avid hiker and fisherman.
 
-So what's next after MIT? I'm currently looking for role in the Data Science industry in the Washington, DC area. [something else here]
+What's Next?
+======
+
+I'm excited to be graduating from MIT in August 2024. Currently, I'm seeking a full-stack ML role in the Washington, DC area for fall 2024. If you'd like to get in contact, please email me at [hratliff@mit.edu](mailto:hratliff@mit.edu).
 
 News
 ======
@@ -20,6 +23,18 @@ News
 * **August 2023:** I started my Master's of Business Analytics at MIT.
 * **May 2023:** I graduated from the University of Virginia with a B.S. in Systems Engineering and Government and a Minor in Computer Science.
 * **August 2019:** I started undergrad at the University of Virginia.
+
+Behind the Scenes
+======
+<div style="text-align: center;">
+  <img src="files/switzerland.jpeg" alt="Hiking in Switzerland" style="display: block; margin: 0 auto;"/>
+  <p style="margin-top: 5px;"><em>Hiking above the Matteral Valley in Switzerland</em></p>
+</div>
+
+<div style="text-align: center;">
+  <img src="files/alaska.jpeg" alt="Fly fishing in Alaska" style="display: block; margin: 0 auto;"/>
+  <p style="margin-top: 5px;"><em>Fly fishing in SW Alaska</em></p>
+</div>
 
 <!-- 
 At MIT, I conducted healthcare research advised by Prof. [Dimitris Bertsimas](https://www.dbertsim.mit.edu/), worked on supply chain forecasting for Lineage Logistics, and automated for Pfizer. -->
