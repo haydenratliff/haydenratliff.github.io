@@ -9,7 +9,7 @@ author_profile: true
 
 Coming soon!
 
-{% assign sorted_portfolio = site.portfolio | reject: "filename", "template.md" | sort: 'order' %}
+{% assign sorted_portfolio = site.portfolio | where_exp: "item", "item.exclude != true" | sort: 'order' %}
 {% for post in sorted_portfolio %}
   {% include archive-single.html %}
 {% endfor %}
