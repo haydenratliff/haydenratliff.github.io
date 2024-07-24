@@ -5,6 +5,22 @@
 # add in video link for capstone video
 # 2 wide instead of 3?
 
+- title: "Wizer Pfizer: Connecting People to Knowledge Faster"
+  short_description: "[short_descriotion]"
+  image: "/images/500x300.png"
+  full_description: "[description]"
+  code_link: false
+  report_link: false
+  presentation_link: false
+
+- title: "Measuring Healthcare Quality"
+  short_description: "[short_descriotion]"
+  image: "/images/500x300.png"
+  full_description: "[description]"
+  code_link: false
+  report_link: false
+  presentation_link: false
+
 - title: "Stata Navigation"
   short_description: "Using Computer Vision to build a navigation system for MIT's Stata Center."
   image: "/images/portfolio/stata_cropped.jpg"
@@ -13,7 +29,7 @@
   report_link: "https://github.com/haydenratliff/stata-navigation/blob/main/report.pdf"
   presentation_link: false
 
-- title: "Template Project"
+- title: "Forecasting Pallet Revenue by Commodity Type"
   short_description: "[short_descriotion]"
   image: "/images/500x300.png"
   full_description: "[description]"
@@ -21,7 +37,7 @@
   report_link: false
   presentation_link: false
 
-- title: "Template Project"
+- title: "MBTA Bus Route Optimization"
   short_description: "[short_descriotion]"
   image: "/images/500x300.png"
   full_description: "[description]"
@@ -29,7 +45,7 @@
   report_link: false
   presentation_link: false
 
-- title: "Template Project"
+- title: "Optimizing Cancer Center Throughput"
   short_description: "[short_descriotion]"
   image: "/images/500x300.png"
   full_description: "[description]"
@@ -37,7 +53,7 @@
   report_link: false
   presentation_link: false
 
-- title: "Template Project"
+- title: "Visualizing Education Inequality"
   short_description: "[short_descriotion]"
   image: "/images/500x300.png"
   full_description: "[description]"
@@ -45,7 +61,23 @@
   report_link: false
   presentation_link: false
 
-- title: "Template Project"
+- title: "Understanding Urban Freight Parking"
+  short_description: "[short_descriotion]"
+  image: "/images/500x300.png"
+  full_description: "[description]"
+  code_link: false
+  report_link: false
+  presentation_link: false
+
+- title: "Forecasting COVID-19 Deaths in Virginia"
+  short_description: "[short_descriotion]"
+  image: "/images/500x300.png"
+  full_description: "[description]"
+  code_link: false
+  report_link: false
+  presentation_link: false
+
+- title: "Visualizing Housing Inequality"
   short_description: "[short_descriotion]"
   image: "/images/500x300.png"
   full_description: "[description]"
