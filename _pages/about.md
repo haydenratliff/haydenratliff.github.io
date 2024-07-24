@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Currently, I'm pursuing a [Master's of Business Analytics](https://mitsloan.mit.edu/master-of-business-analytics/explore-program) at MIT, a Data Science degree focused on practical applications of ML, AI, and Optimization. At MIT, I conducted research advised by Prof. [Dimitris Bertsimas](https://www.dbertsim.mit.edu/), and worked with Lineage Logistics and Pfizer.
+Currently, I'm pursuing a [Master's of Business Analytics](https://mitsloan.mit.edu/master-of-business-analytics/explore-program) at MIT, a Data Science degree focused on practical applications of ML, AI, and Optimization. At MIT, I conducted research advised by Prof. [Dimitris Bertsimas](https://www.dbertsim.mit.edu/) and worked for Lineage Logistics and Pfizer.
 
 On the personal side, I've played collegiate Ultimate Frisbee for the past five years, and am an avid hiker and fisherman.
 
