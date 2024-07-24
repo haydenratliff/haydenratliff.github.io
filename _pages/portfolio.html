@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-Coming soon!
+Coming soon! DEPRECATED
 
 {% assign sorted_portfolio = site.portfolio | where_exp: "item", "item.exclude != true" | sort: 'order' %}
 {% for post in sorted_portfolio %}

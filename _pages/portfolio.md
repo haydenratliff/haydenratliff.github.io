@@ -16,12 +16,12 @@ Welcome to my portfolio! Below are some of the projects I've worked on. Click on
 <div class="portfolio-container">
   {% for project in projects %}
   <div class="portfolio-item">
-    <h3>{{ project.title }}</h3>
-    <p>{{ project.short_description }}</p>
+    <h3 class="project-title">{{ project.title }}</h3> <!-- Using <h3> for titles -->
+    <p class="short-description">{{ project.short_description }}</p>
     <img src="{{ project.image }}" alt="{{ project.title }} Image" class="portfolio-image">
 
     <details class="project-details">
-      <summary>Project Description</summary>
+      <summary>Description</summary>
       <p>{{ project.full_description }}</p>
       
       <!-- Conditionally display links if available -->
@@ -54,6 +54,8 @@ Welcome to my portfolio! Below are some of the projects I've worked on. Click on
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .portfolio-item:hover {
@@ -67,14 +69,28 @@ Welcome to my portfolio! Below are some of the projects I've worked on. Click on
     margin-bottom: 10px;
   }
 
+  .project-title {
+    font-size: 1.17em; /* Matches the size of ### (h3) in Markdown */
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .short-description {
+    font-size: 1em; /* Standard font size */
+    margin-bottom: 10px;
+  }
+
   .project-details summary {
     cursor: pointer;
     font-weight: bold;
+    font-size: 0.95em; /* Slightly smaller than short description */
     margin-bottom: 5px;
   }
 
   .project-details p {
-    margin: 0;
+    font-size: 0.9em; /* Smaller size for detail paragraphs */
+    margin: 0 0 5px 0; /* Maintain small spacing between paragraphs */
   }
 
   .project-details p a {
