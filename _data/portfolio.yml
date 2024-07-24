@@ -6,7 +6,7 @@
 # 2 wide instead of 3?
 
 - title: "Stata Navigation"
-  short_description: "A brief overview of Project One."
+  short_description: "Using Computer Vision to build a navigation system for MIT's Stata Center."
   image: "/images/portfolio/stata_cropped.jpg"
   full_description: "Using Computer Vision to build a navigation system for MIT's Stata Center"
   code_link: "https://github.com/haydenratliff/stata-navigation"
