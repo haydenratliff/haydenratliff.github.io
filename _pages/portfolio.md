@@ -44,8 +44,14 @@ Welcome to my portfolio! Below are some of the projects I've worked on. Click on
 <style>
   .portfolio-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr); /* Two items per row */
+    gap: 20px; /* Space between items */
+  }
+
+  @media screen and (max-width: 768px) {
+    .portfolio-container {
+      grid-template-columns: 1fr; /* One item per row on smaller screens */
+    }
   }
 
   .portfolio-item {
@@ -101,6 +107,4 @@ Welcome to my portfolio! Below are some of the projects I've worked on. Click on
 
   .project-details p a:hover {
     color: #0056b3;
-    text-decoration: underline;
-  }
-</style>
+    text
