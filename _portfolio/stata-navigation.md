@@ -1,10 +1,1 @@
----
-title: "Stata Navigation"
-excerpt: "Using Computer Vision to build a navigation system for MIT's Stata Center<br/><img src='/images/portfolio/stata_cropped.jpg'>"
-collection: portfolio
-order: 1
----
-
-[long description]
-
-[Code](https://github.com/haydenratliff/stata-navigation) "|" [Report](https://github.com/haydenratliff/stata-navigation/blob/main/report.pdf)
+An image-based system for navigating MIT's Stata Center. The system uses ResNet-18 with a custom classification head to identify a user's location on the first floor of the Stata Center. Then, we determine the best route to the user's location using Dijkstra's algorithm. The location identification step achieves a top-1 accuracy of 46.5%, a top-5 accuracy of 63.8%, and a median error of 29 feet on our test set; overall, this performance results in high-quality navigation instructions.
