@@ -16,26 +16,59 @@ Welcome to my portfolio! Below are some of the projects I've worked on. Click on
 <div class="portfolio-container">
   {% for project in projects %}
   <div class="portfolio-item">
-    <h3 class="project-title">{{ project.title }}</h3> <!-- Using <h3> for titles -->
+    <h3 class="project-title">{{ project.title }}</h3>
     <p class="short-description">{{ project.short_description }}</p>
     <img src="{{ project.image }}" alt="{{ project.title }} Image" class="portfolio-image">
 
     <details class="project-details">
       <summary>Description</summary>
       <p>{{ project.full_description }}</p>
+
+      <!-- Code Link -->
+      {% if project.code_link and project.code_link != false %}
+        <p>
+          <strong>{{ project.code_title | default: "Code" }}:</strong> 
+          <a href="{{ project.code_link }}" target="_blank">
+            {{ project.code_text | default: "View on GitHub" }}
+          </a>
+        </p>
+      {% elsif project.code_title or project.code_text %}
+        <p>
+          <strong>{{ project.code_title | default: "Code" }}:</strong> 
+          {{ project.code_text | default: "" }}
+        </p>
+      {% endif %}
+
+      <!-- Report Link -->
+      {% if project.report_link and project.report_link != false %}
+        <p>
+          <strong>{{ project.report_title | default: "Report" }}:</strong> 
+          <a href="{{ project.report_link }}" target="_blank">
+            {{ project.report_text | default: "Read the Report" }}
+          </a>
+        </p>
+      {% elsif project.report_title or project.report_text %}
+        <p>
+          <strong>{{ project.report_title | default: "Report" }}:</strong> 
+          {{ project.report_text | default: "" }}
+        </p>
+      {% endif %}
+
+      <!-- Presentation Link -->
+      {% if project.presentation_link and project.presentation_link != false %}
+        <p>
+          <strong>{{ project.presentation_title | default: "Presentation" }}:</strong> 
+          <a href="{{ project.presentation_link }}" target="_blank">
+            {{ project.presentation_text | default: "View Presentation" }}
+          </a>
+        </p>
+      {% elsif project.presentation_title or project.presentation_text %}
+        <p>
+          <strong>{{ project.presentation_title | default: "Presentation" }}:</strong> 
+          {{ project.presentation_text | default: "" }}
+        </p>
+      {% endif %}
       
-      <!-- Conditionally display links if available -->
-      {% if project.code_link %}
-      <p><strong>Code:</strong> <a href="{{ project.code_link }}" target="_blank">View on GitHub</a></p>
-      {% endif %}
-
-      {% if project.report_link %}
-      <p><strong>Report:</strong> <a href="{{ project.report_link }}" target="_blank">Read the Report</a></p>
-      {% endif %}
-
-      {% if project.presentation_link %}
-      <p><strong>Presentation:</strong> <a href="{{ project.presentation_link }}" target="_blank">View Presentation</a></p>
-      {% endif %}
     </details>
   </div>
   {% endfor %}
@@ -107,4 +140,5 @@ Welcome to my portfolio! Below are some of the projects I've worked on. Click on
 
   .project-details p a:hover {
     color: #0056b3;
-    text
+  }
+</style>

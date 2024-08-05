@@ -5,82 +5,108 @@
 # add in video link for capstone video
 # 2 wide instead of 3?
 
-- title: "Wizer Pfizer"
-  short_description: "Using LLMs to connect people to knowledge, faster."
-  image: "/images/500x300.png"
-  full_description: "[description]"
-  code_link: false
-  report_link: false
-  presentation_link: false
-
-- title: "Measuring Healthcare Quality"
-  short_description: "[short description]"
-  image: "/images/500x300.png"
-  full_description: "[description]"
-  code_link: false
-  report_link: false
-  presentation_link: false
+# - title: "Example"
+#   short_description: "A short description of Example"
+#   full_description: "A detailed explanation of Example with all the bells and whistles."
+#   image: "images/500x300.png"
+#   code_link: "https://github.com/user/example"
+#   code_title: "Repository"
+#   code_text: "View repository"
+#   report_link: "https://example.com/example-report"
+#   report_title: "Report"
+#   report_text: "Access the report"
+#   presentation_link: "https://example.com/example-presentation"
+#   presentation_title: "Slides"
+#   presentation_text: "View the slides"
 
 - title: "Stata Navigation"
-  short_description: "Using Computer Vision to build a navigation system for MIT's Stata Center."
+  short_description: "Using Computer Vision to build an image-based navigation system for MIT's Stata Center."
+  full_description: "[description]"
   image: "/images/portfolio/stata_cropped.jpg"
-  full_description: "Using Computer Vision to build a navigation system for MIT's Stata Center"
   code_link: "https://github.com/haydenratliff/stata-navigation"
+  code_title: "Code"
+  code_text: "View on GitHub"
   report_link: "https://github.com/haydenratliff/stata-navigation/blob/main/report.pdf"
+  report_title: "Report"
+  report_text: "View PDF"
   presentation_link: false
-
-- title: "Forecasting Pallet Revenue by Commodity"
-  short_description: "[short description]"
-  image: "/images/500x300.png"
-  full_description: "[description]"
-  code_link: false
-  report_link: false
-  presentation_link: false
-
-- title: "MBTA Bus Route Optimization"
-  short_description: "[short description]"
-  image: "/images/500x300.png"
-  full_description: "[description]"
-  code_link: false
-  report_link: false
-  presentation_link: false
+  presentation_title: false
+  presentation_text: false
 
 - title: "Optimizing Cancer Center Throughput"
-  short_description: "[short description]"
-  image: "/images/500x300.png"
+  short_description: "Developing a strategy to increase capacity at a Virginia cancer center by 3%. Best Paper Award, Health Track at SIEDS 2023."
   full_description: "[description]"
-  code_link: false
-  report_link: false
+  image: "/images/portfolio/doctor_cropped.png"
+  code_link: https://github.com/haydenratliff/optimizing-infusion-center-throughput
+  code_title: "Code"
+  code_text: "View on GitHub"
+  report_link: "http://doi.org/10.1109/SIEDS58326.2023.10137795"
+  report_title: "Publication"
+  report_text: "View on IEEE"
   presentation_link: false
+  presentation_title: false
+  presentation_text: false
 
-- title: "Visualizing Education Inequality"
-  short_description: "[short description]"
-  image: "/images/500x300.png"
-  full_description: "[description]"
-  code_link: false
-  report_link: false
-  presentation_link: false
+# - title: "Wizer Pfizer"
+#   short_description: "Using LLMs to connect people to knowledge, faster."
+#   image: "/images/500x300.png"
+#   full_description: "[description]"
+#   code_link: false
+#   report_link: false
+#   presentation_link: false
 
-- title: "Understanding Urban Freight Parking"
-  short_description: "[short description]"
-  image: "/images/500x300.png"
-  full_description: "[description]"
-  code_link: false
-  report_link: false
-  presentation_link: false
+# - title: "Measuring Healthcare Quality"
+#   short_description: "[short description]"
+#   image: "/images/500x300.png"
+#   full_description: "[description]"
+#   code_link: false
+#   report_link: false
+#   presentation_link: false
 
-- title: "Forecasting COVID-19 Deaths in Virginia"
-  short_description: "[short description]"
-  image: "/images/500x300.png"
-  full_description: "[description]"
-  code_link: false
-  report_link: false
-  presentation_link: false
+# - title: "Forecasting Pallet Revenue by Commodity"
+#   short_description: "[short description]"
+#   image: "/images/500x300.png"
+#   full_description: "[description]"
+#   code_link: false
+#   report_link: false
+#   presentation_link: false
 
-- title: "Visualizing Housing Inequality"
-  short_description: "[short description]"
-  image: "/images/500x300.png"
-  full_description: "[description]"
-  code_link: false
-  report_link: false
-  presentation_link: false
+# - title: "MBTA Bus Route Optimization"
+#   short_description: "[short description]"
+#   image: "/images/500x300.png"
+#   full_description: "[description]"
+#   code_link: false
+#   report_link: false
+#   presentation_link: false
+
+# - title: "Visualizing Education Inequality"
+#   short_description: "[short description]"
+#   image: "/images/500x300.png"
+#   full_description: "[description]"
+#   code_link: false
+#   report_link: false
+#   presentation_link: false
+
+# - title: "Understanding Urban Freight Parking"
+#   short_description: "[short description]"
+#   image: "/images/500x300.png"
+#   full_description: "[description]"
+#   code_link: false
+#   report_link: false
+#   presentation_link: false
+
+# - title: "Forecasting COVID-19 Deaths in Virginia"
+#   short_description: "[short description]"
+#   image: "/images/500x300.png"
+#   full_description: "[description]"
+#   code_link: false
+#   report_link: false
+#   presentation_link: false
+
+# - title: "Visualizing Housing Inequality"
+#   short_description: "[short description]"
+#   image: "/images/500x300.png"
+#   full_description: "[description]"
+#   code_link: false
+#   report_link: false
+#   presentation_link: false
