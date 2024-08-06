@@ -7,7 +7,7 @@ redirect_from:
   - /portfolio
 ---
 
-Welcome to my portfolio! Below is a selection of some of the ML and Data Science projects I've worked on. Click on each project for more details.
+Welcome to my portfolio! Below is a selection of some of the ML and Data Science projects I've worked on.
 
 {% include base_path %}
 
