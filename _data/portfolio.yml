@@ -39,13 +39,13 @@
   item3: "**Poster:** Coming soon at the MIT Capstone Showcase"
 
 - title: Knowledge Transfer Automation
-  short_description: Automates the identification of relevant documents for Pfizer manufacturers. Saves $5.3M per year by reducing manual work 90% for 1,000 users.
+  short_description: A system that automates the identification of relevant documents for Pfizer manufacturers. Saves $5.3M per year by reducing manual work 90% for 1,000 users.
   full_description: |
     Coming soon!
   image: /images/portfolio/pharmaceutical_cropped.png
   item1: "**Code:** Private - ask me about it!"
-  item2: "**Presentation:** Coming soon at the [MIT Capstone Showcase](https://www.analyticscapstone.mit.edu/showcase/2024-capstone-showcase) on August 16"
-  item3: "**Poster:** Coming soon at the MIT Capstone Showcase on August 16"
+  item2: "**Presentation:** Coming soon at the [MIT Capstone Showcase](https://www.analyticscapstone.mit.edu/showcase/2024-capstone-showcase)"
+  item3: "**Poster:** Coming soon at the MIT Capstone Showcase"
 
 - title: Stata Navigation
   short_description: A Computer Vision-based navigation system for MIT's Stata Center. Uses ResNet-18 to identify a user's location and propose directions to their destination.
@@ -117,7 +117,7 @@
 
     This research was conducted in collaboration with Anna Bustamante and Devon Zavacky and advised by Prof. Rupa Valdez, as part of our UVA Systems Engineering Capstone.
   image: /images/portfolio/doctor_cropped.png
-  item1: "**Code:** Currently private; will be published soon!"
+  item1: "**Code:** Private - will be published soon!"
   # item1: "**Code:** [View on GitHub](https://github.com/haydenratliff/optimizing-infusion-center-throughput)"
   item2: "**Publication:** [Read on IEEE](http://doi.org/10.1109/SIEDS58326.2023.10137795)"
 
