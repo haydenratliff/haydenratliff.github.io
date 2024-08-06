@@ -19,7 +19,7 @@
   full_description: |
     A dual-LLM approach to answering questions with context using Graph [Retrieval Augmented Generation](https://aws.amazon.com/what-is/retrieval-augmented-generation/), or [GraphRAG](https://neo4j.com/blog/graphrag-manifesto/).
 
-    *Methods:*
+    *Method:*
     1. The user asks the chatbot a question.
     2. The chatbot uses *[TinyLlama-1.1B-Chat-v1.0](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0)* to translate the question to Cypher Query Language using few-shot learning.
     3. The chatbot executes the generated query on a Neo4j Knowledge Graph database to retrieve context for the question.
@@ -32,28 +32,45 @@
     - Infers answer from the database.
     - Works in 10-15 seconds on laptop GPU.
 
-    This project was conducted in collaboration with Anne Castille Buisson, as part of our MIT Capstone Project with Pfizer's Operations and Insights Team.
+    This project was conducted in collaboration with Anne Castille Buisson, as part of our MIT Capstone with Pfizer's Operations and Insights Team.
   image: /images/portfolio/graph_cropped.png
-  item1: "*Code:* Private - ask me about it!"
-  item2: "*Presentation:* Coming soon at the [MIT Capstone Showcase](https://www.analyticscapstone.mit.edu/showcase/2024-capstone-showcase)"
-  item3: "*Poster:* Coming soon at the MIT Capstone Showcase"
-
-- title: Automating Knowledge Transfer
-  short_description: Using LLMs to connect people to knowledge, faster.
-  full_description: |
-    Coming soon!
-  image: /images/500x300.png
   item1: "**Code:** Private - ask me about it!"
-  item2: "**Presentation:** Coming soon at the [MIT Capstone Showcase](https://www.analyticscapstone.mit.edu/showcase/2024-capstone-showcase) on August 16"
-  item3: "**Poster:** Coming soon at the MIT Capstone Showcase on August 16"
-  show: false
+  item2: "**Presentation:** Coming soon at the [MIT Capstone Showcase](https://www.analyticscapstone.mit.edu/showcase/2024-capstone-showcase)"
+  item3: "**Poster:** Coming soon at the MIT Capstone Showcase"
+
+- title: Knowledge Transfer Automation
+  short_description: A system that automates the identification of relevant documents for Pfizer manufacturers. Saves $5.3M per year by reducing manual work 90% for 1,000 users.
+  full_description: |
+    An automated document classification tool that identifies documents relevant to manufacturing, displaying relevant documents in an internal search engine.
+
+    *Method:*
+    1. The system extracts raw text from the first two pages of documents using [Optical Character Recognition](https://pypi.org/project/pytesseract/).
+    2. The system embeds document text with *[allenai/biomed_roberta_base](https://huggingface.co/allenai/biomed_roberta_base)*, a version of *[RoBERTa](https://arxiv.org/abs/1907.11692)* fine-tuned with biomedical research papers.
+    3. The system classifies document embeddings with a *[HistXGBoost](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingClassifier.html)* classificaiton model trained on 33K documents from seven Pfizer molecules.
+      - Steps 1-3 are run in parallel on AWS EC2, which classifies each document in less than one second.
+    4. The system writes classification probabilities to Pfizer's Knowledge Graph database with an ETL script.
+    5. Document classification probabilities are read by the "Wizer Pfizer" search engine and displayed to manufacturers through an easy-to-use user interface.
+      - Document classification probabilities are shown to manufacturers as a binary "relevant" or "not relevant" label. 
+      - Inside Wizer, manufacturers can provide feedback on the model's classification results. This feedback will be used to retrain the model in the future.
+
+    *Results:*
+    - Reduces the time required to process documents for one of Pfizer's molecules from 9 months to 10 minutes.
+    - Saved 1,200 hours of manual work by processing three molecules (~3K documents) in Summer 2024.
+    - Projected to save $5.3M per year by reducing manual work 90% for 1,000 users by the end of 2024.
+    - Will be used to process documents from 100% of Pfizer's new molecules, starting in 2025.
+
+    This project was conducted in collaboration with Anne Castille Buisson, as part of our MIT Capstone with Pfizer's Operations and Insights Team.
+  image: /images/portfolio/pharmaceutical_cropped.png
+  item1: "**Code:** Private - ask me about it!"
+  item2: "**Presentation:** Coming soon at the [MIT Capstone Showcase](https://www.analyticscapstone.mit.edu/showcase/2024-capstone-showcase)"
+  item3: "**Poster:** Coming soon at the MIT Capstone Showcase"
 
 - title: Stata Navigation
   short_description: A Computer Vision-based navigation system for MIT's Stata Center. Uses ResNet-18 to identify a user's location and propose directions to their destination.
   full_description: |
     An image-based system for navigating MIT's Stata Center, a notoriously complex building.
 
-    *Methods:*
+    *Method:*
     1. The user uploads an image from the first floor of the Stata Center and a desired destination.
     2. The system uses *[ResNet-18](https://pytorch.org/vision/main/models/generated/torchvision.models.resnet18.html)* to identify the user's location based on the uploaded image.
     3. The system uses Dijkstra's algorithm to find the shortest path between the user's location and their destination.
@@ -118,7 +135,7 @@
 
     This research was conducted in collaboration with Anna Bustamante and Devon Zavacky and advised by Prof. Rupa Valdez, as part of our UVA Systems Engineering Capstone.
   image: /images/portfolio/doctor_cropped.png
-  item1: "**Code:** Currently private; will be published soon!"
+  item1: "**Code:** Private - will be published soon!"
   # item1: "**Code:** [View on GitHub](https://github.com/haydenratliff/optimizing-infusion-center-throughput)"
   item2: "**Publication:** [Read on IEEE](http://doi.org/10.1109/SIEDS58326.2023.10137795)"
 
