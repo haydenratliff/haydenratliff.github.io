@@ -13,23 +13,24 @@
 #   item1: "**Code:** [View on GitHub](http://github.com)"
 #   item2: "**Report:** [Read PDF](https://github.com)"
 
-- title: "Stata Navigation"
-  short_description: "A Computer Vision-based navigation system for MIT's Stata Center. Uses ResNet-18 to identify a user's location and propose directions to their destination."
+- title: Stata Navigation
+  short_description: A Computer Vision-based navigation system for MIT's Stata Center. Uses ResNet-18 to identify a user's location and propose directions to their destination.
   full_description: |
     An image-based system for navigating MIT's Stata Center, a notoriously complex building.
 
-    How the system works: 
+    Methods:
     1. The user uploads an image from the first floor of the Stata Center and a desired destination.
     2. The system uses ResNet-18 to identify the user's location based on the uploaded image.
     3. The system uses Dijkstra's algorithm to find the shortest path between the user's location and their destination.
     4. The system returns navigation instructions to the user.
 
-    Performance: 
+    Performance:
     - The location identification step achieves a top-1 accuracy of 46.5%, a top-5 accuracy of 63.8%, and a median error of 29 feet on our test set.
     - Using the location identified by ResNet-18, the system produces high-quality navigation instructions, helping the user reach their destination easier.
 
     This project was conducted in collaboration with Krish Datta and Sara Pasquino, as part of MIT's 6.8300: Advances in Computer Vision course.
-  image: "/images/portfolio/stata_cropped.jpg"
+    An image-based system for navigating MIT's Stata Center, a notoriously complex building.
+  image: /images/portfolio/stata_cropped.jpg
   item1: "**Code:** [View on GitHub](https://github.com/haydenratliff/stata-navigation)"
   item2: "**Report:** [Read PDF](https://github.com/haydenratliff/stata-navigation/blob/main/report.pdf)"
 
