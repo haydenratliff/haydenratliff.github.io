@@ -27,7 +27,9 @@ Welcome to my portfolio! Below is a selection of some of the ML and Data Science
 
           <!-- Full Description with Markdown Formatting -->
           {% if project.full_description %}
-            <p>{{ project.full_description | markdownify }}</p>
+            <div class="full-description">
+              {{ project.full_description | markdownify }}
+            </div>
           {% else %}
             <p>No full description available.</p>
           {% endif %}
@@ -37,7 +39,9 @@ Welcome to my portfolio! Below is a selection of some of the ML and Data Science
             {% capture item_key %}item{{ i }}{% endcapture %}
             {% assign item_content = project[item_key] %}
             {% if item_content %}
-              <p>{{ item_content | markdownify }}</p>
+              <div class="item-content">
+                {{ item_content | markdownify }}
+              </div>
             {% endif %}
           {% endfor %}
         </details>
@@ -49,13 +53,13 @@ Welcome to my portfolio! Below is a selection of some of the ML and Data Science
 <style>
   .portfolio-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two items per row */
+    grid-template-columns: repeat(1, 1fr); /* Full width per item for larger screens */
     gap: 20px; /* Space between items */
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 768px) {
     .portfolio-container {
-      grid-template-columns: 1fr; /* One item per row on smaller screens */
+      grid-template-columns: repeat(2, 1fr); /* Two items per row on larger screens */
     }
   }
 
@@ -100,24 +104,35 @@ Welcome to my portfolio! Below is a selection of some of the ML and Data Science
   }
 
   .project-details p {
-    font-size: 0.9em; /* Standard size for paragraphs */
-    margin: 0 0 5px 0; /* Maintain small spacing between paragraphs */
+    font-size: 0.95em; /* Slightly larger size for paragraphs */
+    margin: 0 0 3px 0; /* Reduced spacing between paragraphs */
   }
 
   .project-details ul,
   .project-details ol {
-    font-size: 0.9em; /* Match the font size of paragraphs for list items */
-    margin: 0 0 5px 0; /* Maintain spacing for lists */
+    font-size: 0.95em; /* Match the font size of paragraphs for list items */
+    margin: 0 0 3px 0; /* Reduced spacing for lists */
     padding-left: 20px; /* Indent list items */
   }
 
-  .project-details p a {
+  .project-details a {
     color: #3366cc;
     text-decoration: none;
     transition: color 0.2s ease;
   }
 
-  .project-details p a:hover {
+  .project-details a:hover {
     color: #0056b3;
+  }
+
+  .full-description {
+    font-size: 0.95em; /* Matches the size of the dropdown label */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .item-content {
+    font-size: 0.95em; /* Ensures text is the same size as full description */
+    margin-bottom: 3px; /* Reduced spacing between items */
   }
 </style>
