@@ -34,19 +34,18 @@
 
     This project was conducted in collaboration with Anne Castille Buisson, as part of our MIT Capstone Project with Pfizer's Operations and Insights Team.
   image: /images/portfolio/graph_cropped.png
-  item1: "*Code:* Private - ask me about it!"
-  item2: "*Presentation:* Coming soon at the [MIT Capstone Showcase](https://www.analyticscapstone.mit.edu/showcase/2024-capstone-showcase)"
-  item3: "*Poster:* Coming soon at the MIT Capstone Showcase"
+  item1: "**Code:** Private - ask me about it!"
+  item2: "**Presentation:** Coming soon at the [MIT Capstone Showcase](https://www.analyticscapstone.mit.edu/showcase/2024-capstone-showcase)"
+  item3: "**Poster:** Coming soon at the MIT Capstone Showcase"
 
-- title: Automating Knowledge Transfer
-  short_description: Using LLMs to connect people to knowledge, faster.
+- title: Knowledge Transfer Automation
+  short_description: Automates the identification of relevant documents for Pfizer manufacturers. Saves $5.3M per year by reducing manual work 90% for 1,000 users.
   full_description: |
     Coming soon!
-  image: /images/500x300.png
+  image: /images/portfolio/pharmaceutical_cropped.png
   item1: "**Code:** Private - ask me about it!"
   item2: "**Presentation:** Coming soon at the [MIT Capstone Showcase](https://www.analyticscapstone.mit.edu/showcase/2024-capstone-showcase) on August 16"
   item3: "**Poster:** Coming soon at the MIT Capstone Showcase on August 16"
-  show: false
 
 - title: Stata Navigation
   short_description: A Computer Vision-based navigation system for MIT's Stata Center. Uses ResNet-18 to identify a user's location and propose directions to their destination.
