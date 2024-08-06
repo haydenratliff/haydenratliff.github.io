@@ -14,24 +14,38 @@
 #   item1: "**Code:** [View on GitHub](http://github.com)"
 #   item2: "**Report:** [Read PDF](https://github.com)"
 
-- title: Wizer Pfizer - LLMs
-  short_description: Using LLMs to connect people to knowledge, faster.
+- title: Knowledge Graph Synthesis Chatbot
+  short_description: A chatbot that uses context in Pfizer's Knowledge Graph to answer questions, minimizing hallucination and taking advantage of the graph database's structure.
   full_description: |
-      Coming soon!
-  image: /images/500x300.png
-  item1: "**Code:** Private"
-  item2: "**Presentation:** Coming soon!"
-  item3: "**Poster:** Coming soon!"
-  show: false
+    A dual-LLM approach to answering questions with context using Graph [Retrieval Augmented Generation](https://aws.amazon.com/what-is/retrieval-augmented-generation/), or [GraphRAG](https://neo4j.com/blog/graphrag-manifesto/).
 
-- title: Wizer Pfizer - ChatBot
+    *Methods:*
+    1. The user asks a question to the chatbot.
+    2. The chatbot uses [TinyLlama-1.1B-Chat-v1.0](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0) to translate the question to Cypher Query Language using few-shot learning.
+    3. The chatbot executes the generated query on a Neo4j Knowledge Graph database to retrieve context for the question.
+    4. The chatbot uses [deepset/roberta-base-squad2](https://huggingface.co/deepset/roberta-base-squad2) to answer the question using the context extracted from the database. If no context is extracted or the query was invalid, answers "I don't know."
+    5. The chatbot returns the answer to the user.
+
+    *Results:*
+    - Projected to save up to 14 minutes per question asked for Pfizer manufacturers.
+    - Hallucination free on small testing dataset.
+    - Infers answer from the database.
+    - Works in 10-15 seconds on laptop GPU.
+
+    This project was conducted in collaboration with Anne Castille Buisson, as part of our MIT Capstone Project with Pfizer's Operations and Insights Team.
+  image: /images/portfolio/graph_cropped.png
+  item1: "**Code:** Private - ask me about it!"
+  item2: "**Presentation:** Coming soon at the [MIT Capstone Showcase](https://www.analyticscapstone.mit.edu/showcase/2024-capstone-showcase)"
+  item3: "**Poster:** Coming soon at the MIT Capstone Showcase"
+
+- title: Automating Knowledge Transfer
   short_description: Using LLMs to connect people to knowledge, faster.
   full_description: |
-      Coming soon!
+    Coming soon!
   image: /images/500x300.png
-  item1: "**Code:** Private"
-  item2: "**Presentation:** Coming soon!"
-  item3: "**Poster:** Coming soon!"
+  item1: "**Code:** Private - ask me about it!"
+  item2: "**Presentation:** Coming soon at the [MIT Capstone Showcase](https://www.analyticscapstone.mit.edu/showcase/2024-capstone-showcase) on August 16"
+  item3: "**Poster:** Coming soon at the MIT Capstone Showcase on August 16"
   show: false
 
 - title: Stata Navigation
@@ -41,7 +55,7 @@
 
     *Methods:*
     1. The user uploads an image from the first floor of the Stata Center and a desired destination.
-    2. The system uses ResNet-18 to identify the user's location based on the uploaded image.
+    2. The system uses [ResNet-18](https://pytorch.org/vision/main/models/generated/torchvision.models.resnet18.html) to identify the user's location based on the uploaded image.
     3. The system uses Dijkstra's algorithm to find the shortest path between the user's location and their destination.
     4. The system returns navigation instructions to the user.
 
@@ -88,11 +102,24 @@
 - title: Optimizing Cancer Care Throughput
   short_description: Developing a strategy to increase capacity at a Virginia cancer center by 3%. Best Paper Award, Health Track at SIEDS 2023.
   full_description: |
-      Coming soon!
+    An image-based system for navigating MIT's Stata Center, a notoriously complex building.
+
+    *Methods:*
+    1. X
+    2. Y
+    3. Z
+
+    *Results:*
+    - Item 1
+    - Item 2
+
+    This project was conducted in collaboration with Krish Datta and Sara Pasquino, as part of MIT's 6.8300: Advances in Computer Vision course.
+    An image-based system for navigating MIT's Stata Center, a notoriously complex building.
   image: /images/portfolio/doctor_cropped.png
   item1: "**Code:** Coming soon!"
   # item1: "**Code:** [View on GitHub](https://github.com/haydenratliff/optimizing-infusion-center-throughput)"
   item2: "**Publication:** [Read on IEEE](http://doi.org/10.1109/SIEDS58326.2023.10137795)"
+  show: false
 
 - title: Visualizing Education Inequality
   short_description: Coming soon!
