@@ -20,7 +20,7 @@
     A dual-LLM approach to answering questions with context using Graph [Retrieval Augmented Generation](https://aws.amazon.com/what-is/retrieval-augmented-generation/), or [GraphRAG](https://neo4j.com/blog/graphrag-manifesto/).
 
     *Methods:*
-    1. The user asks a question to the chatbot.
+    1. The user asks the chatbot a question.
     2. The chatbot uses *[TinyLlama-1.1B-Chat-v1.0](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0)* to translate the question to Cypher Query Language using few-shot learning.
     3. The chatbot executes the generated query on a Neo4j Knowledge Graph database to retrieve context for the question.
     4. The chatbot uses *[deepset/roberta-base-squad2](https://huggingface.co/deepset/roberta-base-squad2)* to answer the question using the context extracted from the database. If no context is extracted or the query was invalid, answers "I don't know."
@@ -99,27 +99,28 @@
   item2: "**Report:** [Read PDF](https://github.com)"
   show: false
 
-- title: Optimizing Cancer Care Throughput
-  short_description: Developing a strategy to increase capacity at a Virginia cancer center by 3%. Best Paper Award, Health Track at SIEDS 2023.
+- title: Optimizing Cancer Center Throughput
+  short_description: Researching a strategy to increase capacity at a Virginia cancer center by 3%. Co-authored publication won Best Paper Award, Health Track at SIEDS 2023.
   full_description: |
-    An image-based system for navigating MIT's Stata Center, a notoriously complex building.
+    A systems-based approach to increasing throughput at a central Virginia cancer infusion center.
 
     *Methods:*
-    1. X
-    2. Y
-    3. Z
+    - Conducted live observations and interviews with nurses, schedulers, and pharmacists.
+    - Built a process map representation of the infusion center to visualize process inefficiencies.
+    - Calculated descriptive statistics to determine infusion chair utilization rate.
+    - Trained stepwise linear regression models to understand drivers of appointment length and drug mixing time.
+    - Used decision modeling and stakeholder input to identify drugs causing pharmacy bottleneck.
 
     *Results:*
-    - Item 1
-    - Item 2
+    - Proposed strategy to improve capacity while holding nurse staffing constant due to the ongoing nurse shortage.
+    - Found that capacity could be increased by 3% by decreasing the scheduled buffer time for follow-up appointments by 10 minutes, saving 820 minutes per day.
+    - Identified chair idle time as a key driver of inefficiency; proposed five candidate drugs for a drug pre-mixing pilot study to reduce chair idle time.
 
-    This project was conducted in collaboration with Krish Datta and Sara Pasquino, as part of MIT's 6.8300: Advances in Computer Vision course.
-    An image-based system for navigating MIT's Stata Center, a notoriously complex building.
+    This research was conducted in collaboration with Anna Bustamante and Devon Zavacky and advised by Prof. Rupa Valdez, as part of our UVA Systems Engineering Capstone.
   image: /images/portfolio/doctor_cropped.png
-  item1: "**Code:** Coming soon!"
+  item1: "**Code:** Currently private; will be published soon!"
   # item1: "**Code:** [View on GitHub](https://github.com/haydenratliff/optimizing-infusion-center-throughput)"
   item2: "**Publication:** [Read on IEEE](http://doi.org/10.1109/SIEDS58326.2023.10137795)"
-  show: false
 
 - title: Visualizing Education Inequality
   short_description: Coming soon!
