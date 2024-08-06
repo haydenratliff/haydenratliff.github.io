@@ -21,9 +21,9 @@
 
     *Methods:*
     1. The user asks a question to the chatbot.
-    2. The chatbot uses [TinyLlama-1.1B-Chat-v1.0](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0) to translate the question to Cypher Query Language using few-shot learning.
+    2. The chatbot uses *[TinyLlama-1.1B-Chat-v1.0](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0)* to translate the question to Cypher Query Language using few-shot learning.
     3. The chatbot executes the generated query on a Neo4j Knowledge Graph database to retrieve context for the question.
-    4. The chatbot uses [deepset/roberta-base-squad2](https://huggingface.co/deepset/roberta-base-squad2) to answer the question using the context extracted from the database. If no context is extracted or the query was invalid, answers "I don't know."
+    4. The chatbot uses *[deepset/roberta-base-squad2](https://huggingface.co/deepset/roberta-base-squad2)* to answer the question using the context extracted from the database. If no context is extracted or the query was invalid, answers "I don't know."
     5. The chatbot returns the answer to the user.
 
     *Results:*
@@ -34,9 +34,9 @@
 
     This project was conducted in collaboration with Anne Castille Buisson, as part of our MIT Capstone Project with Pfizer's Operations and Insights Team.
   image: /images/portfolio/graph_cropped.png
-  item1: "**Code:** Private - ask me about it!"
-  item2: "**Presentation:** Coming soon at the [MIT Capstone Showcase](https://www.analyticscapstone.mit.edu/showcase/2024-capstone-showcase)"
-  item3: "**Poster:** Coming soon at the MIT Capstone Showcase"
+  item1: "*Code:* Private - ask me about it!"
+  item2: "*Presentation:* Coming soon at the [MIT Capstone Showcase](https://www.analyticscapstone.mit.edu/showcase/2024-capstone-showcase)"
+  item3: "*Poster:* Coming soon at the MIT Capstone Showcase"
 
 - title: Automating Knowledge Transfer
   short_description: Using LLMs to connect people to knowledge, faster.
@@ -55,7 +55,7 @@
 
     *Methods:*
     1. The user uploads an image from the first floor of the Stata Center and a desired destination.
-    2. The system uses [ResNet-18](https://pytorch.org/vision/main/models/generated/torchvision.models.resnet18.html) to identify the user's location based on the uploaded image.
+    2. The system uses *[ResNet-18](https://pytorch.org/vision/main/models/generated/torchvision.models.resnet18.html)* to identify the user's location based on the uploaded image.
     3. The system uses Dijkstra's algorithm to find the shortest path between the user's location and their destination.
     4. The system returns navigation instructions to the user.
 

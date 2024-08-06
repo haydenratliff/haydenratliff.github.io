@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Currently, I'm pursuing a [Master's of Business Analytics](https://mitsloan.mit.edu/master-of-business-analytics/explore-program) at MIT, a Data Science degree focused on practical applications of ML, AI, and Optimization. At MIT, I conducted research advised by Prof. [Dimitris Bertsimas](https://www.dbertsim.mit.edu/) and worked for Lineage Logistics and Pfizer.
+Currently, I'm pursuing a [Master's of Business Analytics](https://mitsloan.mit.edu/master-of-business-analytics/explore-program) at MIT, a Data Science degree focused on practical applications of ML, AI, and Optimization. At MIT, I've conducted research advised by Prof. [Dimitris Bertsimas](https://www.dbertsim.mit.edu/) and worked for Lineage Logistics and Pfizer.
 
 On the personal side, I've played collegiate Ultimate Frisbee for the past five years, and am an avid hiker and fisherman.
 
@@ -21,7 +21,7 @@ News
 
 * **February 2024:** I joined Pfizer's Operations & Insights team in Cambridge, MA to begin my 7-month MIT capstone project.
 * **August 2023:** I started the Master's of Business Analytics (MBAn) program at MIT.
-* **May 2023:** I graduated from the University of Virginia with a B.S. in Systems Engineering with Highest Distinction, B.A. in Government, and a Minor in Computer Science.
+* **May 2023:** I graduated from the University of Virginia with a B.S. in Systems Engineering with Highest Distinction, a B.A. in Government, and a Minor in Computer Science.
 * **August 2019:** I started undergrad at the University of Virginia.
 
 Behind the Scenes
