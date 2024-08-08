@@ -137,7 +137,7 @@
   image: /images/portfolio/doctor_cropped.png
   item1: "**Code:** Private - will be published soon!"
   # item1: "**Code:** [View on GitHub](https://github.com/haydenratliff/optimizing-infusion-center-throughput)"
-  item2: "**Publication:** [Read on IEEE](http://doi.org/10.1109/SIEDS58326.2023.10137795)"
+  item2: "**Publication:** [Read in IEEE Xplore](http://doi.org/10.1109/SIEDS58326.2023.10137795)"
 
 - title: Visualizing Education Inequality
   short_description: Coming soon!
@@ -152,11 +152,10 @@
   short_description: Coming soon!
   full_description: |
       Coming soon!
-  image: /images/500x300.png
+  image: /images/portfolio/parking_cropped.jpeg
   item1: "**Code:** Coming soon!"
   # item1: "**Code:** [View on GitHub](http://github.com)"
-  # item2: "**Publication:** [Read PDF](https://github.com)"
-  show: false
+  item2: "**Publication:** [Read in Scientific Reports](https://doi.org/10.1038/s41598-022-23987-z)"
 
 - title: Forecasting COVID-19 Deaths in Virginia
   short_description: Coming soon!
