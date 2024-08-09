@@ -94,6 +94,7 @@
   item1: "**Code:** Private - ask me about it!"
   # item1: "**Code:** [View on GitHub](http://github.com)"
   # item2: "**Report:** [Read PDF](https://github.com)"
+  show: false
 
 - title: Forecasting Pallet Revenue by Commodity
   short_description: Coming soon!
@@ -154,6 +155,7 @@
 
     *Methods:*
     - previously: magnetic sensors in the ground before study
+    - these do curb availability information real-time
     - helped with methodology
     - Delivery mock manifests
     - 8 drivers, 24 routes, with and without parking information on iPad
