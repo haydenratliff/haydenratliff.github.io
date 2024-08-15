@@ -7,14 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-Currently, I'm pursuing a [Master's of Business Analytics](https://mitsloan.mit.edu/master-of-business-analytics/explore-program) at MIT, a Data Science degree focused on practical applications of ML, AI, and Optimization. At MIT, I've conducted research advised by Prof. [Dimitris Bertsimas](https://www.dbertsim.mit.edu/) and worked for Lineage Logistics and Pfizer.
+Right now, I'm pursuing a [Master's of Business Analytics](https://mitsloan.mit.edu/master-of-business-analytics/explore-program) at MIT, a Data Science degree focused on practical applications of ML, AI, and Optimization. At MIT, I've conducted research advised by Prof. [Dimitris Bertsimas](https://www.dbertsim.mit.edu/) and worked for Lineage Logistics and Pfizer.
 
 On the personal side, I've played collegiate Ultimate Frisbee for the past five years, and am an avid hiker and fisherman.
 
 What's Next?
 ======
 
-I'm excited to be graduating from MIT in August 2024. Currently, I'm seeking a Data Science or ML role in the Washington, DC area for fall 2024. If you'd like to get in contact, please reach out to me at [hratliff@mit.edu](mailto:hratliff@mit.edu).
+I'm excited to be graduating from MIT in August 2024. Currently, I'm seeking a Data Science or ML role for fall 2024. If you'd like to get in contact, please reach out to me at [hratliff@mit.edu](mailto:hratliff@mit.edu).
 
 News
 ======
