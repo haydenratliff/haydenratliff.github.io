@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Hayden Ratliff"
 title_separator          : "-"
 name                     : &name "Hayden Ratliff"
-description              : &description "Master of Business Analytics Candidate at MIT"
+description              : &description "Data Science and ML @ MIT"
 url                      : https://haydenratliff.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "haydenratliff/haydenratliff.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Hayden Ratliff"
   pronouns         : # example: "she/her"
-  bio              : "Master of Business Analytics Candidate at MIT"
+  bio              : "Data Science and ML @ MIT"
   location         : # location
   employer         : # employer
   uri              : # URL
