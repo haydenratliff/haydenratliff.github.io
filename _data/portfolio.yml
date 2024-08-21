@@ -87,11 +87,11 @@
   item2: "**Report:** [Read PDF](https://github.com/haydenratliff/stata-navigation/blob/main/report.pdf)"
 
 - title: Measuring Healthcare Quality
-  short_description: Coming soon!
+  short_description: Developing a health insurance claims-based system for measuring the quality of healthcare. Uses decision trees and K-means clustering to score each provider.
   full_description: |
       Coming soon!
   image: /images/500x300.png
-  item1: "**Code:** Private"
+  item1: "**Code:** Private - ask me about it!"
   # item1: "**Code:** [View on GitHub](http://github.com)"
   # item2: "**Report:** [Read PDF](https://github.com)"
   show: false
@@ -117,7 +117,7 @@
   show: false
 
 - title: Optimizing Cancer Center Throughput
-  short_description: Researching a strategy to increase capacity at a Virginia cancer center by 3%. Co-authored publication won Best Paper Award, Health Track at SIEDS 2023.
+  short_description: Building a strategy to increase capacity at a Virginia cancer center by 3%. Co-authored publication won Best Paper Award, Health Track at SIEDS 2023.
   full_description: |
     A systems-based approach to increasing throughput at a central Virginia cancer infusion center.
 
@@ -137,7 +137,7 @@
   image: /images/portfolio/doctor_cropped.png
   item1: "**Code:** Private - will be published soon!"
   # item1: "**Code:** [View on GitHub](https://github.com/haydenratliff/optimizing-infusion-center-throughput)"
-  item2: "**Publication:** [Read on IEEE](http://doi.org/10.1109/SIEDS58326.2023.10137795)"
+  item2: "**Publication:** [Read in IEEE Xplore](http://doi.org/10.1109/SIEDS58326.2023.10137795)"
 
 - title: Visualizing Education Inequality
   short_description: Coming soon!
@@ -148,15 +148,31 @@
   # item1: "**Code:** [View on GitHub](http://github.com)"
   show: false
 
-- title: Understanding Urban Freight Parking
-  short_description: Coming soon!
+- title: Improving Sustainability of Urban Deliveries
+  short_description: Parking availability information reduces drive distance and emissions for urban deliveries. Acknowledged contributor for publication in Scientific Reports 2022.
   full_description: |
-      Coming soon!
-  image: /images/500x300.png
+    A research study on the impact of parking availability information on "cruising" for parking, the distance delivery drivers drive to find parking, in urban areas.
+
+    *Methods:*
+    - previously: magnetic sensors in the ground before study
+    - these do curb availability information real-time
+    - helped with methodology
+    - Delivery mock manifests
+    - 8 drivers, 24 routes, with and without parking information on iPad
+    - rented UHaul and led data collection, using iPhone to collect data in urban Seattle neighborhood
+    - post-processing of delivery drives
+    - calculated drive and segment statistics
+      - one segment is a drive or walking segment
+
+    *Results:*
+    - Study found that information does reduce crusiing for parking
+    - essentially, helps drivers decide how greedy to be when looking for parking
+
+    This research was conducted in collaboration with Giacomo Dalla Chiara and Fiete XX, as part of a research assistantship at UW's Urban Freight Lab advised by Prof. Anne Goodchild. 
+  image: /images/portfolio/parking_cropped.jpeg
   item1: "**Code:** Coming soon!"
   # item1: "**Code:** [View on GitHub](http://github.com)"
-  # item2: "**Publication:** [Read PDF](https://github.com)"
-  show: false
+  item2: "**Publication:** [Read in Scientific Reports](https://doi.org/10.1038/s41598-022-23987-z)"
 
 - title: Forecasting COVID-19 Deaths in Virginia
   short_description: Coming soon!
