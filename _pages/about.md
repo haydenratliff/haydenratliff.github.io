@@ -19,6 +19,7 @@ I'm excited to be graduating from MIT in August 2024. Currently, I'm seeking a D
 News
 ======
 
+* **August 2024:** I graduated from MIT with a Master's of Business Analytics (MBAn), and my work with Pfizer was recognized as the MIT Capstone of the Year.
 * **February 2024:** I joined Pfizer's Operations & Insights team in Cambridge, MA to begin my 7-month MIT capstone project.
 * **August 2023:** I started the Master's of Business Analytics (MBAn) program at MIT.
 * **May 2023:** I graduated from the University of Virginia with a B.S. in Systems Engineering with Highest Distinction, a B.A. in Government, and a Minor in Computer Science.
