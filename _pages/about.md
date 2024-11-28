@@ -10,7 +10,7 @@ redirect_from:
 
 I’m an August 2024 graduate of MIT’s [Master's of Business Analytics](https://mitsloan.mit.edu/master-of-business-analytics/explore-program) (MBAn) program, with a focus on Machine Learning, AI, and Data Science at MIT's Operations Research Center. At MIT, I conducted research advised by Prof. [Dimitris Bertsimas](https://www.dbertsim.mit.edu/) and worked for Lineage Logistics and Pfizer.
 
-This fall, I am actively seeking a full-time role building data-driven software products with ML. If you'd like to get in contact, please reach out to me at [hratliff@mit.edu](mailto:hratliff@mit.edu).
+<!-- This fall, I am actively seeking a full-time role building data-driven software products with ML. If you'd like to get in contact, please reach out to me at [hratliff@mit.edu](mailto:hratliff@mit.edu). -->
 
 News
 ======
