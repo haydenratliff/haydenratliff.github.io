@@ -1,7 +1,8 @@
 # main links
-main:
-  - title: "Portfolio"
-    url: /portfolio/
+# NOTE[3/30/36]: uncomment below to turn back on portfoliio/resume sub-pages
+# main:
+#   - title: "Portfolio"
+#     url: /portfolio/
 
-  - title: "Resume"
-    url: /resume/
+#   - title: "Resume"
+#     url: /resume/
